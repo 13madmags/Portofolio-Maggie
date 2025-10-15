@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio Maggie</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="main-header">
+      <h1>Portofolio Maggie</h1>
+      <nav>
+        <ul>
+          <li><a href="#content">Home</a></li>
+          <li><a href="#skills">My Skills</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="content">
+        <h2>About Me</h2>
+        <div class="about-section">
+          <div class="about-text">
+            <h4>Hello There!</h4>
+            <h3 id="demo"></h3>
+            <p>currently I am learning Web</p>
+            <p>
+              I am a 5th semester computer science student who loves watching
+              Sci-Fi movies and is interested in becoming an AI developer.
+            </p>
+            <button onclick="showMessage()">Click Here</button>
+          </div>
+
+          <div class="about-image">
+            <img src="download (1).jpeg" alt="Maggie" />
+        </div>
+      </section>
+
+        <section id="skills">
+            <h2>My Skills</h2>
+            <div class="skills">
+                <div class="skill">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML5</h3>
+                    <p>Website Structure</p>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>CSS3</h3>
+                    <p>Styling & Layout</p>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-js-square"></i>
+                    <h3>JavaScript</h3>
+                    <p>Interactivity</p>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-react"></i>
+                    <h3>React</h3>
+                    <p>UI Framework</p>
+                </div>
+            </div>
+        </section>
+    </main> 
+    <script src="script.js"></script>
+
+    <section id="contact" class="contact-section">
+     <div class="contact-section-image">
+            <img src="Jus bow and stuff.jpg" alt="Maggie" />
+        </div>
+    <h3>Contact Me</h3>
+    <form>
+        <input type="text" name="name" placeholder="Name"/>
+        <input type="email" email="email" placeholder="Email"/>
+        <textarea name="message" placeholder="Message"></textarea>
+        <button type="submit">Send</button>
+    </form>
+    </section>
+  </body>
+</html>
+
